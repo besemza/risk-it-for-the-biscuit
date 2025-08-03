@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk it for the Biscuit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Risk it for the Biscuit</h1>
+    <div class="game-container">
+        <div id="door" class="door"></div>
+        <div id="biscuit"></div>
+        <div id="hand"></div>
+    </div>
+    <div class="score-container">
+        <h2>Score: <span id="score">0</span></h2>
+        <h2>High Score: <span id="high-score">0</span></h2>
+    </div>
+    <div class="instructions">
+        <p>Press the <strong>Spacebar</strong> to grab the biscuit!</p>
+        <p>Time your grab carefully. If the door closes, it's game over!</p>
+    </div>
+    <div id="game-over" class="hidden">
+        <h2>Game Over!</h2>
+        <p>Your score: <span id="final-score">0</span></p>
+        <button id="restart-btn">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
